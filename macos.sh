@@ -23,4 +23,7 @@ xcode-select --install
 echo '\n---- Install Homebrew'
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+echo '\n---- Install Chezmoi Dotfiles'
+sh -c "$(curl -fsLS chezmoi.io/get)"
+
 echo ''
