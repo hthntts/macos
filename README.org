@@ -1,0 +1,57 @@
+# my macOS setup
+
+* iCloud
+
+1. Login iCloud
+2. Login App Store
+3. Enable Free Download (iCloud > Media & Purchases)
+
+* Xcode
+
+- Open Terminal from Spotlight (Command + Space)
+
+#+begin_src sh
+xcode-select —install
+#+end_src
+
+* Terminal
+
+- Full Disk Access for Terminal (System Preferences > Security & Privacy > Privacy > Full Disk Access: add Terminal)
+
+* Hostname, Policy, Homebrew
+
+- Setup my config
+
+#+begin_src sh
+sh setup_my_config.sh
+#+end_src
+
+- Setup hostname, disable Policy, install Homebrew
+
+#+begin_src sh
+sh setup_config.sh
+#+end_src
+
+* Python, Ansible
+
+- Install python, setup ansible
+
+#+begin_src sh
+sh setup_python.sh
+#+end_src
+
+* App Store
+
+- Install app from App Store
+
+#+begin_src sh
+sh appstore.sh
+#+end_src
+
+* App Brew
+
+- Install app from App Brew
+
+#+begin_src sh
+sh appbrew.sh
+#+end_src
