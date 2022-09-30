@@ -1,0 +1,121 @@
+---
+- hosts: localhost
+  vars:
+    brew_tap: 
+      - homebrew/cask-fonts
+      - hudochenkov/sshpass
+      - tavianator/tap
+      - buo/cask-upgrade
+      - d12frosted/emacs-plus
+
+    brew_packages:
+      - bash
+      - bat
+      - bfs
+      - cmake
+      - chezmoi
+      - code-minimap
+      - colordiff
+      - coreutils
+      - cowsay
+      - dockutil
+      - exa
+      - fd
+      - figlet
+      - fzf
+      - ghq
+      - gitui
+      - gnu-sed
+      - graphviz
+      - htop
+      - icdiff
+      - jump
+      - mas
+      - ncdu
+      - neovim
+      - nmap
+      - npm
+      - peco
+      - putty
+      - rar
+      - reattach-to-user-namespace
+      - ripgrep
+      - ripgrep
+      - ruby
+      - rust
+      - sshpass
+      - stow
+      - svn
+      - telnet
+      - the_silver_searcher
+      - tmux
+      - tree-sitter
+      - ugit
+      - universal-ctags
+      - vim
+      - wget
+      - wordnet
+      - yarn
+
+    brew_casks: 
+      - alt-tab
+      - anydesk
+      - browserosaurus
+      - dropbox
+      - evkey
+      - firefox
+      - font-jetbrains-mono-nerd-font
+      - font-source-code-pro
+      - google-chrome
+      - google-drive
+      - istat-menus
+      - iterm2
+      - keepassxc
+      - keycastr
+      - kitty
+      - maccy
+      - microsoft-edge
+      - microsoft-office
+      - microsoft-teams
+      - mos
+      - postman
+      - rectangle
+      - visual-studio-code
+
+    appstore_app:
+      - 937984704  # Amphetamine
+      - 1295203466 # Microsoft Remote Desktop
+      - 540348655  # Monosnap
+      - 747648890  # Telegram
+
+  tasks:
+    - name: Appstore install apps
+      shell: |
+        mas install {{ item }}
+      with_items: "{{ appstore_app }}"
+      tags:
+      - appstore
+
+    - name: Brew tap
+      shell: |
+        brew tap {{ item }}
+      with_items: "{{ brew_tap }}"
+      tags:
+      - brew
+      - brew-tap
+
+    - name: Brew install packages
+      shell: |
+        brew tap {{ item }}
+      with_items: "{{ brew_packages }}"
+      tags:
+      - brew
+      - brew-packages
+
+    - name: Brew install casks
+      shell: |
+        brew tap {{ item }}
+      with_items: "{{ brew_casks }}"
+      tags:
+      - brew
+      - brew-casks
