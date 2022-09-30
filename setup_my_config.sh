@@ -58,7 +58,7 @@ defaults write com.apple.finder "ShowPathbar" -bool "true" && killall Finder
 # defaults delete com.apple.finder "ShowPathbar" && killall Finder
 
 # Display full POSIX path as Finder window title
-defaults write com.apple.finder "_FXShowPosixPathInTitle" -bool "true" && killall Finder
+# defaults write com.apple.finder "_FXShowPosixPathInTitle" -bool "true" && killall Finder
 # defaults delete com.apple.finder "_FXShowPosixPathInTitle" && killall Finder
 
 # Keep folders on top when sorting by name
