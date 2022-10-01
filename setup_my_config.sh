@@ -74,6 +74,9 @@ defaults write com.apple.desktopservices "DSDontWriteNetworkStores" -bool "true"
 defaults write com.apple.desktopservices "DSDontWriteUSBStores" -bool "true" && killall Finder
 # defaults delete com.apple.desktopservices "DSDontWriteUSBStores" && killall Finder
 
+defaults write com.apple.desktopservices "DSDontWriteNetworkStores" -bool "true" && killall Finder
+# defaults write com.apple.desktopservices "DSDontWriteNetworkStores" -bool "false" && killall Finder
+
 # Show icons for hard drives, servers, and removable media on the desktop
 # defaults write com.apple.finder "ShowExternalHardDrivesOnDesktop" -bool "true"
 # defaults write com.apple.finder "ShowHardDrivesOnDesktop" -bool "true"
