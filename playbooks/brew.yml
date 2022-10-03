@@ -80,12 +80,12 @@
       - mos
       - postman
       - rectangle
+      - shottr
       - visual-studio-code
 
     appstore_app:
       - 937984704  # Amphetamine
       - 1295203466 # Microsoft Remote Desktop
-      - 540348655  # Monosnap
       - 747648890  # Telegram
 
   tasks:
