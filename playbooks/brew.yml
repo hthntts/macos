@@ -109,7 +109,7 @@
 
     - name: Brew install packages
       shell: |
-        brew tap {{ item }}
+        brew install {{ item }}
       with_items: "{{ brew_packages }}"
       tags:
       - brew
@@ -117,7 +117,7 @@
 
     - name: Brew install casks
       shell: |
-        brew tap {{ item }}
+        brew install --cask {{ item }}
       with_items: "{{ brew_casks }}"
       tags:
       - brew
