@@ -83,6 +83,7 @@
       - postman
       - rectangle
       - shottr
+      - textmate
       - visual-studio-code
 
     appstore_app:
