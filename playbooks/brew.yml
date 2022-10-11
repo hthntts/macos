@@ -101,7 +101,7 @@
 
     - name: Brew tap
       shell: |
-        brew tap {{ item }}
+        HOMEBREW_NO_AUTO_UPDATE=1 brew tap {{ item }}
       with_items: "{{ brew_tap }}"
       tags:
       - brew
@@ -109,7 +109,7 @@
 
     - name: Brew install packages
       shell: |
-        brew install {{ item }}
+        HOMEBREW_NO_AUTO_UPDATE=1 brew install {{ item }}
       with_items: "{{ brew_packages }}"
       tags:
       - brew
@@ -117,7 +117,7 @@
 
     - name: Brew install casks
       shell: |
-        brew install --cask {{ item }}
+        HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask {{ item }}
       with_items: "{{ brew_casks }}"
       tags:
       - brew
