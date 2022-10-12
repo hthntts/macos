@@ -89,6 +89,7 @@
       - visual-studio-code
 
     appstore_app:
+      - 1440147259 # AdGuard for Safari
       - 937984704  # Amphetamine
       - 1355679052 # Dropover
       - 975890633  # HotKey App
