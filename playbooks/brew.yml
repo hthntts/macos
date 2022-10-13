@@ -40,7 +40,6 @@
       - rar
       - reattach-to-user-namespace
       - ripgrep
-      - ripgrep
       - ruby
       - rust
       - sshpass
