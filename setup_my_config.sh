@@ -88,7 +88,7 @@ defaults write com.apple.desktopservices "DSDontWriteNetworkStores" -bool "true"
 defaults write com.apple.dock "orientation" -string "bottom" && killall Dock
 # defaults write com.apple.dock "orientation" -string "right" && killall Dock
 
-defaults write com.apple.dock "tilesize" -int "36" && killall Dock
+defaults write com.apple.dock "tilesize" -int "50" && killall Dock
 # defaults delete com.apple.dock "tilesize" && killall Dock
 
 # defaults write com.apple.dock "autohide" -bool "false" && killall Dock
