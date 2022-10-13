@@ -55,3 +55,12 @@ sh appstore.sh
 #+begin_src sh
 sh appbrew.sh
 #+end_src
+
+* Setup Nvim
+#+begin_src sh
+venv_auto python
+venv
+gem install neovim
+npm install -g neovim
+pip install pynvim --upgrade
+#+end_src
