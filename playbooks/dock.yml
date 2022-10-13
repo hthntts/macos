@@ -2,7 +2,6 @@
 - hosts: localhost
   vars:
     dockitems_to_remove:
-      - Launchpad
       - Mail
       - Contacts
       - Notes
@@ -23,31 +22,31 @@
     dockitems_to_persist:
       - name: Microsoft Edge
         path: "/Applications/Microsoft Edge.app"
-        pos: 2
+        pos: 3
       - name: Microsoft Teams
         path: "/Applications/Microsoft Teams.app" 
-        pos: 3
+        pos: 4
       - name: Notes
         path: "/System/Applications/Notes.app"
-        pos: 4
-      - name: kitty
-        path: "/Applications/kitty.app"
         pos: 5
+      - name: iTerm
+        path: "/Applications/iTerm.app"
+        pos: 6
       - name: Emacs
         path: "/Applications/Emacs.app"
-        pos: 6
+        pos: 7
       - name: AnyDesk
         path: "/Applications/AnyDesk.app"
-        pos: 7
+        pos: 8
       - name: Google Chrome
         path: "/Applications/Google Chrome.app"
-        pos: 8
+        pos: 9
       - name: Telegram
         path: "/Applications/Telegram.app"
-        pos: 9
+        pos: 10
       - name: KeePassXC
         path: "/Applications/KeePassXC.app"
-        pos: 10
+        pos: 11
 
   tasks:
     - name: Remove all crap from Dock
