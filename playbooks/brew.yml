@@ -65,6 +65,10 @@
       - firefox
       - font-jetbrains-mono-nerd-font
       - font-source-code-pro
+      - font-cascadia-mono
+      - font-cascadia-mono-pl
+      - font-cascadia-code
+      - font-cascadia-code-pl
       - google-chrome
       - google-drive
       - hiddenbar
