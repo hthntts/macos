@@ -98,6 +98,8 @@
       - 975890633  # HotKey App
       - 1295203466 # Microsoft Remote Desktop
       - 747648890  # Telegram
+      - 1547052291 # Translatium
+      - 1555467675 # Switchbar
 
   tasks:
     - name: Appstore install apps
