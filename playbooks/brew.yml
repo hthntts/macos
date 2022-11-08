@@ -55,6 +55,7 @@
       - wget
       - wordnet
       - yarn
+      - schappim/ocr/ocr
 
     brew_casks: 
       - alt-tab
