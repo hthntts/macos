@@ -12,13 +12,14 @@
       - bash
       - bat
       - bfs
-      - cmake
       - chezmoi
+      - cmake
       - code-minimap
       - colordiff
       - coreutils
       - cowsay
       - dockutil
+      - duti
       - fd
       - figlet
       - fzf
@@ -41,6 +42,7 @@
       - ripgrep
       - ruby
       - rust
+      - schappim/ocr/ocr
       - sshpass
       - stow
       - svn
@@ -54,7 +56,6 @@
       - wget
       - wordnet
       - yarn
-      - schappim/ocr/ocr
 
     brew_packages_remove:
       - exa
