@@ -9,6 +9,7 @@
       - railwaycat/emacsmacport
 
     brew_packages:
+      - atool
       - bash
       - bat
       - bfs
@@ -18,13 +19,16 @@
       - colordiff
       - coreutils
       - cowsay
+      - dark-mode
       - dockutil
       - duti
       - exiftool
       - fd
+      - ffmpeg
       - figlet
       - fzf
       - ghq
+      - gifsicle
       - gitui
       - gnu-sed
       - graphviz
@@ -32,12 +36,16 @@
       - icdiff
       - jump
       - mas
+      - mpv
       - ncdu
       - neovim
       - nmap
       - npm
+      - pandoc
       - peco
       - putty
+      - qpdf
+      - qrencode
       - rar
       - reattach-to-user-namespace
       - ripgrep
@@ -57,6 +65,7 @@
       - wget
       - wordnet
       - yarn
+      - youtube-dl
 
     brew_packages_remove:
       - exa
