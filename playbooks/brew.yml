@@ -19,7 +19,6 @@
       - coreutils
       - cowsay
       - dockutil
-      - exa
       - fd
       - figlet
       - fzf
@@ -57,10 +56,12 @@
       - yarn
       - schappim/ocr/ocr
 
+    brew_packages_remove:
+      - exa
+
     brew_casks: 
       - alt-tab
       - anydesk
-      - browserosaurus
       - dropbox
       - evkey
       - firefox
@@ -91,6 +92,9 @@
       - teamviewer
       - textmate
       - visual-studio-code
+
+    brew_casks_remove:
+      - browserosaurus
 
     appstore_app:
       - 1440147259 # AdGuard for Safari

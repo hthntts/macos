@@ -108,7 +108,7 @@ defaults write com.apple.dock "show-recents" -bool false && killall Dock
 # defaults delete com.apple.dock "show-recents" && killall Dock
 
 # Change minimize/maximize window effect
-defaults write com.apple.dock "mineffect" -string "scale" && killall Dock
+# defaults write com.apple.dock "mineffect" -string "scale" && killall Dock
 # defaults delete com.apple.dock "mineffect" && killall Dock
 
 # ----- Screenshots ------------------------------------------------------------
