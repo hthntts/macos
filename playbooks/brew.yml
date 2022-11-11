@@ -66,6 +66,8 @@
       - wordnet
       - yarn
       - youtube-dl
+      - isync
+      - mu
 
     brew_packages_remove:
       - exa
