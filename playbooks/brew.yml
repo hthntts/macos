@@ -68,6 +68,7 @@
       - youtube-dl
       - isync
       - mu
+      - msmtp
 
     brew_packages_remove:
       - exa
