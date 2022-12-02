@@ -32,11 +32,15 @@
       - gitui
       - gnu-sed
       - graphviz
+      - helm
       - htop
       - icdiff
+      - isync
       - jump
       - mas
       - mpv
+      - msmtp
+      - mu
       - ncdu
       - neovim
       - nmap
@@ -55,6 +59,7 @@
       - sshpass
       - stow
       - svn
+      - syncthing
       - telnet
       - the_silver_searcher
       - tmux
@@ -66,9 +71,6 @@
       - wordnet
       - yarn
       - youtube-dl
-      - isync
-      - mu
-      - msmtp
 
     brew_packages_remove:
       - exa
@@ -89,7 +91,6 @@
       - font-lato
       - font-source-code-pro
       - google-chrome
-      - google-drive
       - hiddenbar
       - istat-menus
       - iterm2
@@ -97,6 +98,7 @@
       - keepassxc
       - keycastr
       - kitty
+      - lens
       - maccy
       - maciasl
       - microsoft-edge
@@ -112,6 +114,7 @@
 
     brew_casks_remove:
       - browserosaurus
+      - google-drive
 
     appstore_app:
       - 1440147259 # AdGuard for Safari
@@ -120,6 +123,8 @@
       - 975890633 # HotKey App
       - 1295203466 # Microsoft Remote Desktop
       - 747648890 # Telegram
+
+    appstore_app_remove:
       - 1547052291 # Translatium
 
   tasks:
