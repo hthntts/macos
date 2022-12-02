@@ -63,6 +63,7 @@
       - telnet
       - the_silver_searcher
       - tmux
+      - trash
       - tree-sitter
       - ugit
       - universal-ctags
@@ -76,9 +77,7 @@
       - exa
 
     brew_casks:
-      - alt-tab
       - anydesk
-      - dropbox
       - evkey
       - firefox
       - font-cascadia-code
@@ -91,7 +90,6 @@
       - font-lato
       - font-source-code-pro
       - google-chrome
-      - hiddenbar
       - istat-menus
       - iterm2
       - karabiner-elements
@@ -99,7 +97,6 @@
       - keycastr
       - kitty
       - lens
-      - maccy
       - maciasl
       - microsoft-edge
       - microsoft-office
@@ -113,8 +110,12 @@
       - visual-studio-code
 
     brew_casks_remove:
+      - alt-tab
       - browserosaurus
+      - dropbox
       - google-drive
+      - hiddenbar
+      - maccy
 
     appstore_app:
       - 1440147259 # AdGuard for Safari
