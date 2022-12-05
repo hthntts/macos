@@ -56,6 +56,7 @@
       - ruby
       - rust
       - schappim/ocr/ocr
+      - spaceship
       - sshpass
       - stow
       - svn
