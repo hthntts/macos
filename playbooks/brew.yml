@@ -47,6 +47,7 @@
       - npm
       - pandoc
       - peco
+      - pngpaste
       - putty
       - qpdf
       - qrencode
