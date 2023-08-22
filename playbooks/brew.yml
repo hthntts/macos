@@ -5,7 +5,6 @@
       - homebrew/cask-fonts
       - hudochenkov/sshpass
       - tavianator/tap
-      - buo/cask-upgrade
       - railwaycat/emacsmacport
 
     brew_packages:
@@ -83,31 +82,16 @@
       - anydesk
       - evkey
       - firefox
-      - font-cascadia-code
-      - font-cascadia-code-pl
-      - font-cascadia-mono
-      - font-cascadia-mono-pl
       - font-iosevka-curly-slab
       - font-jetbrains-mono-nerd-font
-      - font-juliamono
-      - font-lato
-      - font-source-code-pro
-      - google-chrome
-      - istat-menus
-      - iterm2
       - karabiner-elements
       - keepassxc
-      - keycastr
       - kitty
-      - lens
-      - maciasl
       - microsoft-edge
-      - microsoft-office
-      - microsoft-teams
       - mos
-      - postman
       - rectangle
       - shottr
+      - syncthing
       - teamviewer
       - textmate
       - visual-studio-code
@@ -115,21 +99,34 @@
     brew_casks_remove:
       - alt-tab
       - browserosaurus
+      - docker
       - dropbox
+      - google-chrome
       - google-drive
       - hiddenbar
+      - istat-menus
+      - iterm2
+      - keycastr
+      - lens
       - maccy
+      - maciasl
+      - microsoft-office
+      - microsoft-teams
+      - postman
 
     appstore_app:
       - 1440147259 # AdGuard for Safari
       - 937984704 # Amphetamine
       - 1355679052 # Dropover
-      - 975890633 # HotKey App
+      - 975890633 # HotKey
+      - 1071624317 # Lịch Việt
       - 1295203466 # Microsoft Remote Desktop
-      - 747648890 # Telegram
+      - 1284863847 # Unsplash Wallpapers
 
     appstore_app_remove:
-      - 1547052291 # Translatium
+      - 1168254295 # AmorphousDiskMark
+      - 747648890 # Telegram
+      - 1451685025 # WireGuard
 
   tasks:
     - name: Appstore install apps

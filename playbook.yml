@@ -1,3 +1,2 @@
 ---
-- import_playbook : playbooks/brew.yml
-- import_playbook : playbooks/dock.yml
+- import_playbook: playbooks/brew.yml

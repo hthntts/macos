@@ -1,62 +1,44 @@
 # my macOS setup
 
-* iCloud
-
-1. Login iCloud
-2. Login App Store
-3. Enable Free Download (iCloud > Media & Purchases)
-
 * Xcode
-
 - Open Terminal from Spotlight (Command + Space)
-
-#+begin_src sh
+#+begin_src bash
 xcode-select —install
 #+end_src
 
-* Terminal
-
-- Full Disk Access for Terminal (System Preferences > Security & Privacy > Privacy > Full Disk Access: add Terminal)
-
-* Hostname, Policy, Homebrew
-
-- Setup my config
-
-#+begin_src sh
-sh setup_my_config.sh
+* Config Hostname and install Brew
+#+begin_src bash
+sh setup_hostname_brew.sh mymac
 #+end_src
 
-- Setup hostname, disable Policy, install Homebrew
+* iCloud
+1. Login iCloud
+2. Enable Free Download (iCloud > Media & Purchases)
 
+* Terminal
+- Full Disk Access for Terminal (System Preferences > Security & Privacy > Privacy > Full Disk Access: add Terminal)
+
+* Macos config
 #+begin_src sh
 sh setup_config.sh
 #+end_src
 
-* Python, Ansible
-
-- Install python, setup ansible
-
+* Setup ansible
 #+begin_src sh
 sh setup_python.sh
 #+end_src
 
-* App Store
-
-- Install app from App Store
-
+** Install app from appstore
 #+begin_src sh
-sh appstore.sh
+sh install_app_store.sh
 #+end_src
 
-* App Brew
-
-- Install app from App Brew
-
+** Install app from brew
 #+begin_src sh
-sh appbrew.sh
+sh install_app_brew.sh
 #+end_src
 
-* Setup Nvim
+* Setup nvim
 #+begin_src sh
 venv_auto python
 venv
