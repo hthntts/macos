@@ -21,15 +21,25 @@
       - dark-mode
       - dockutil
       - duti
+      - exa
       - exiftool
       - fd
       - ffmpeg
       - figlet
+      - findutils
       - fzf
+      - gawk
       - ghq
       - gifsicle
       - gitui
+      - gnu-getopt
+      - gnu-indent
       - gnu-sed
+      - gnu-tar
+      - gnu-which
+      - gnupg
+      - gnuplot
+      - gnutls
       - graphviz
       - helm
       - htop
@@ -48,6 +58,7 @@
       - peco
       - pngpaste
       - putty
+      - pyenv
       - qpdf
       - qrencode
       - rar
@@ -76,14 +87,20 @@
       - youtube-dl
 
     brew_packages_remove:
-      - exa
 
     brew_casks:
       - anydesk
       - evkey
       - firefox
+      - font-cascadia-code
+      - font-cascadia-code-pl
+      - font-cascadia-mono
+      - font-cascadia-mono-pl
       - font-iosevka-curly-slab
       - font-jetbrains-mono-nerd-font
+      - font-juliamono
+      - font-lato
+      - font-source-code-pro
       - karabiner-elements
       - keepassxc
       - kitty
