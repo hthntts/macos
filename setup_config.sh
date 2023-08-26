@@ -238,6 +238,7 @@ defaults write -g "NSAutomaticSpellingCorrectionEnabled" -bool "false"
 defaults write -g "NSAutomaticCapitalizationEnabled" -bool "false"
 defaults write -g "NSAutomaticPeriodSubstitutionEnabled" -bool "false"
 defaults write -g "NSSpellCheckerAutomaticallyIdentifiesLanguages" -bool "true"
+defaults write -g "NSQuitAlwaysKeepsWindows" -bool "true"
 
 # Disable Show Input menu in menu bar
 defaults write com.apple.TextInputMenu "visible" -bool "false"
