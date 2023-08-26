@@ -89,6 +89,7 @@
     brew_packages_remove:
 
     brew_casks:
+      - arc
       - anydesk
       - evkey
       - firefox
@@ -101,6 +102,7 @@
       - font-juliamono
       - font-lato
       - font-source-code-pro
+      - iterm2
       - karabiner-elements
       - keepassxc
       - kitty
@@ -122,7 +124,6 @@
       - google-drive
       - hiddenbar
       - istat-menus
-      - iterm2
       - keycastr
       - lens
       - maccy
