@@ -3,7 +3,7 @@
 * Xcode
 - Open Terminal from Spotlight (Command + Space)
 #+begin_src bash
-xcode-select —install
+xcode-select --install
 #+end_src
 
 * Config Hostname and install Brew
