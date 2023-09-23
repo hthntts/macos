@@ -45,6 +45,7 @@
       - htop
       - icdiff
       - isync
+      - jq
       - jump
       - mas
       - mpv
