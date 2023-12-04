@@ -50,13 +50,12 @@
       - mas
       - mpv
       - msmtp
-      - msmtprc
       - mu
       - ncdu
       - neovim
       - nmap
       - npm
-      - openjdk@11
+      - "openjdk@11"
       - pandoc
       - peco
       - pngpaste
@@ -105,11 +104,13 @@
       - font-juliamono
       - font-lato
       - font-source-code-pro
+      - google-chrome
       - istat-menus
       - iterm2
       - karabiner-elements
       - keepassxc
       - microsoft-edge
+      - microsoft-office
       - mos
       - rectangle
       - shottr
@@ -123,7 +124,6 @@
       - browserosaurus
       - docker
       - dropbox
-      - google-chrome
       - google-drive
       - hiddenbar
       - keycastr
@@ -131,19 +131,18 @@
       - lens
       - maccy
       - maciasl
-      - microsoft-office
       - microsoft-teams
       - postman
 
     appstore_app:
       - 1440147259 # AdGuard for Safari
-      - 937984704 # Amphetamine
+      - 937984704  # Amphetamine
       - 1355679052 # Dropover
-      - 975890633 # HotKey
+      - 975890633  # HotKey
       - 1071624317 # Lịch Việt
       - 1295203466 # Microsoft Remote Desktop
       - 1289197285 # MindNode
-      - 747648890 # Telegram
+      - 747648890  # Telegram
       - 1284863847 # Unsplash Wallpapers
 
     appstore_app_remove:
