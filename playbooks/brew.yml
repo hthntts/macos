@@ -8,6 +8,7 @@
       - railwaycat/emacsmacport
 
     brew_packages:
+      - "openjdk@11"
       - atool
       - bash
       - bat
@@ -55,7 +56,6 @@
       - neovim
       - nmap
       - npm
-      - "openjdk@11"
       - pandoc
       - peco
       - pngpaste
@@ -69,6 +69,7 @@
       - ruby
       - rust
       - schappim/ocr/ocr
+      - shellcheck
       - spaceship
       - sshpass
       - stow
@@ -112,6 +113,7 @@
       - microsoft-edge
       - microsoft-office
       - mos
+      - raycast
       - rectangle
       - shottr
       - syncthing
