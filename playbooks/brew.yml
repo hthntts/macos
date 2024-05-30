@@ -18,6 +18,7 @@
       - code-minimap
       - colordiff
       - coreutils
+      - corkscrew
       - cowsay
       - dark-mode
       - dockutil
@@ -59,6 +60,7 @@
       - pandoc
       - peco
       - pngpaste
+      - proxytunnel
       - putty
       - pyenv
       - qpdf
