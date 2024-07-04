@@ -94,10 +94,10 @@
     brew_packages_remove:
 
     brew_casks:
-      - anydesk
       - arc
       - evkey
       - firefox
+      - floorp
       - font-cascadia-code
       - font-cascadia-code-pl
       - font-cascadia-mono
@@ -111,10 +111,12 @@
       - istat-menus
       - iterm2
       - karabiner-elements
-      - keepassxc
+      - maciasl
       - microsoft-edge
       - microsoft-office
       - mos
+      - postman
+      - rar
       - raycast
       - rectangle
       - shottr
@@ -122,6 +124,7 @@
       - teamviewer
       - textmate
       - visual-studio-code
+      - zalo
 
     brew_casks_remove:
       - alt-tab
@@ -136,7 +139,6 @@
       - maccy
       - maciasl
       - microsoft-teams
-      - postman
 
     appstore_app:
       - 1440147259 # AdGuard for Safari
