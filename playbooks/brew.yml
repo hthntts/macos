@@ -2,7 +2,7 @@
 - hosts: localhost
   vars:
     brew_tap:
-      - homebrew/cask-fonts
+     #- homebrew/cask-fonts
       - hudochenkov/sshpass
       - tavianator/tap
       - railwaycat/emacsmacport
@@ -23,7 +23,7 @@
       - dark-mode
       - dockutil
       - duti
-      - exa
+     #- exa
       - exiftool
       - fd
       - ffmpeg
