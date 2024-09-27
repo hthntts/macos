@@ -95,6 +95,7 @@
 
     brew_casks:
       - arc
+      - easydict
       - evkey
       - firefox
       - floorp
@@ -107,53 +108,57 @@
       - font-juliamono
       - font-lato
       - font-source-code-pro
-      - google-chrome
-      - istat-menus
       - iterm2
       - karabiner-elements
-      - maciasl
       - microsoft-edge
-      - microsoft-office
       - mos
-      - postman
+      - rambox
       - rar
       - raycast
-      - rectangle
       - shottr
+      - silicon
       - syncthing
       - teamviewer
       - textmate
+      - thunderbird
       - visual-studio-code
-      - zalo
 
     brew_casks_remove:
       - alt-tab
       - browserosaurus
       - docker
       - dropbox
+      - google-chrome
       - google-drive
       - hiddenbar
+      - istat-menus
       - keycastr
       - kitty
       - lens
       - maccy
       - maciasl
+      - maciasl
+      - microsoft-office
       - microsoft-teams
+      - postman
+      - rectangle
+      - zalo
 
     appstore_app:
-      - 1440147259 # AdGuard for Safari
       - 937984704  # Amphetamine
       - 1355679052 # Dropover
-      - 975890633  # HotKey
       - 1071624317 # Lịch Việt
       - 1295203466 # Microsoft Remote Desktop
+      - 1195518228 # Power Node
+      - 1451685025 # WireGuard
+
+    appstore_app_remove:
+      - 1440147259 # AdGuard for Safari
+      - 1168254295 # AmorphousDiskMark
+      - 975890633  # HotKey
       - 1289197285 # MindNode
       - 747648890  # Telegram
       - 1284863847 # Unsplash Wallpapers
-
-    appstore_app_remove:
-      - 1168254295 # AmorphousDiskMark
-      - 1451685025 # WireGuard
 
   tasks:
     - name: Appstore install apps
